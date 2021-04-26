@@ -36,13 +36,15 @@ public class lab01 {
 				
 						
 			}
-			for(int x =0 ; x<arr.length ; x++) {
-				System.out.print(arr[x]+",");//印出過程
-			}
+
 			System.out.println();
 			if (!safe) {
 				//排好了，提早跳出迴圈
 				break;
+			}
+			
+			for(int x =0 ; x<arr.length ; x++) {
+				System.out.print(arr[x]+",");//印出過程
 			}
 		}
 		System.out.println("由小到大:");
