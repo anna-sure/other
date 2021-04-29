@@ -1,0 +1,9 @@
+更改Factory後，就能更改好Comp.java。
+此方法叫做工廠方法。
+
+假如今天有Comp5,6,7,8,9....，
+如果用原始new的方法，萬一要Sales改Manager，
+或Manager改Sales，就得每個project都改。
+
+
+但這個新的方法我們只要改工廠return裡面的值，改一個就可以了。
